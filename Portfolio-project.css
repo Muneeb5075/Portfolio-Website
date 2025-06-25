@@ -112,6 +112,7 @@
 
 .second-third {
   display: inline;
+  font-size: 5rem;
 }
 
 .container {
@@ -258,7 +259,7 @@ img {
   width: 20rem;
   background-color: #0F0F0F;
   border-radius: 20px;
-  padding: 60px 40px;
+  padding: 20px ;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
@@ -291,7 +292,7 @@ img {
 .box1 .Brand,
 .box2 .Visual {
   color: #d5d5d5;
-  font-size: 40px;
+  font-size: 36px;
   font-family: sans-serif;
   margin: 20px 0px;
   text-transform: uppercase;
@@ -646,8 +647,7 @@ img {
 }
 
 .email-last {
-  font-size: 100px;
-  font-weight: 700;
+  /* font-weight: 700; */
   text-transform: uppercase;
   word-wrap: break-word;
   /* Ensures text wraps within the container */
