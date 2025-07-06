@@ -94,7 +94,6 @@
   font-weight: 500;
   text-transform: uppercase;
 }
-
 .first-word {
   display: block;
   position: relative;
@@ -202,7 +201,10 @@ img {
 
 @media (max-width: 768px) {
   .container h1 {
-      font-size: 4rem;
+      font-size: 3rem;
+  }
+  .second-third{
+    font-size: 3rem;
   }
 
   .container p {
@@ -475,7 +477,6 @@ img {
 
   .profile-stats {
       flex-direction: row;
-      /* Stack stats vertically */
       align-items: center;
       margin-top: 2rem;
   }
@@ -592,6 +593,12 @@ img {
   transition: 1s;
 }
 
+@media (min-width: 650) {
+  .first-word{
+    font-size: 40px;
+  }
+
+}
 @media (min-width: 768px) {
   .main-section {
       flex-direction: row;
