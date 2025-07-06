@@ -28,8 +28,8 @@ window.addEventListener("scroll", function () {
     isAnimated = true;
 
     // Animate the count-up effect
-    countUp("experience", 2, 0, 200, "+"); // 8+ Years of Experience
-    countUp("projects", 300, 0, 200, "+"); // 1k+ Complete Projects
+    countUp("experience", 1, 0, 200, "+"); // 8+ Years of Experience
+    countUp("projects", 50, 0, 200, "+"); // 1k+ Complete Projects
     countUp("satisfaction", 90, 0, 200, "%"); // 90%+ Client Satisfaction
   }
 });
