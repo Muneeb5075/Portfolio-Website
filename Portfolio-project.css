@@ -18,9 +18,37 @@
   padding: 0 1rem;
 }
 
-.logo img {
-  height: 28px;
+.logo h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(
+    -45deg,
+    #ff0057,
+    #ffae00,
+    #08f7fe,
+    #09fbd3,
+    #ff00c8
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: colorShift 5s ease infinite;
+  text-align: center;
 }
+
+/* Animation Keyframes */
+@keyframes colorShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 .nav-links {
   display: flex;
